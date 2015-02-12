@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-//--variables
+    //--variables
     
     var sliderValue: Int = 1
     var targetValue: Int = 0
@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var levelLabel: UILabel!
     
     
-//--methods
-   
+    //--methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setLevel()
@@ -33,14 +33,14 @@ class ViewController: UIViewController {
         setSliderValue()
         generateRandomTargetNumber()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
     
-//--methods
+    
+    //--methods
     
     func setScore() {
         totalScore = 0
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
     func showResults(hitBullsEye:Bool) {
         var resultsTitle: String
         var resultsButton: String
-   
+        
         if (hitBullsEye) {
             resultsTitle = "BULL'S EYE!!"
             resultsButton = "Yay!"
@@ -108,7 +108,7 @@ class ViewController: UIViewController {
         presentViewController(alert, animated: true, completion: nil)
         
     }
-
+    
     @IBAction func startOver(sender: UIButton) {
         resetSliderValue()
         setScore()
@@ -119,10 +119,10 @@ class ViewController: UIViewController {
     @IBAction func moveSlider(slider: UISlider) {
         setSliderValue()
     }
-
+    
     @IBAction func endRound(sender: UIButton) {
         var hitBullsEye = (targetValue == sliderValue)
-
+        
         generateScore(hitBullsEye)
         showResults(hitBullsEye)
         increaseLevel()
@@ -130,6 +130,7 @@ class ViewController: UIViewController {
         
     }
 }
+
 
 
 

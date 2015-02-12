@@ -13,6 +13,7 @@
 		3A30A6171A8C40A5003A4C7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A30A6161A8C40A5003A4C7A /* Images.xcassets */; };
 		3A30A61A1A8C40A5003A4C7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A30A6181A8C40A5003A4C7A /* LaunchScreen.xib */; };
 		3A30A6261A8C40A5003A4C7A /* Bull_s_Eye_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A30A6251A8C40A5003A4C7A /* Bull_s_Eye_4Tests.swift */; };
+		3AADC2751A8C99E200A33BA0 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADC2741A8C99E200A33BA0 /* infoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3A30A61F1A8C40A5003A4C7A /* Bull's Eye 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bull's Eye 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A30A6241A8C40A5003A4C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A30A6251A8C40A5003A4C7A /* Bull_s_Eye_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bull_s_Eye_4Tests.swift; sourceTree = "<group>"; };
+		3AADC2741A8C99E200A33BA0 /* infoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3A30A60F1A8C40A5003A4C7A /* AppDelegate.swift */,
 				3A30A6111A8C40A5003A4C7A /* ViewController.swift */,
 				3A30A6131A8C40A5003A4C7A /* Main.storyboard */,
+				3AADC2741A8C99E200A33BA0 /* infoViewController.swift */,
 				3A30A6161A8C40A5003A4C7A /* Images.xcassets */,
 				3A30A6181A8C40A5003A4C7A /* LaunchScreen.xib */,
 				3A30A60D1A8C40A5003A4C7A /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AADC2751A8C99E200A33BA0 /* infoViewController.swift in Sources */,
 				3A30A6121A8C40A5003A4C7A /* ViewController.swift in Sources */,
 				3A30A6101A8C40A5003A4C7A /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				3A30A62B1A8C40A5003A4C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A30A62C1A8C40A5003A4C7A /* Build configuration list for PBXNativeTarget "Bull's Eye 4Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				3A30A62E1A8C40A5003A4C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
